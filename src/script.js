@@ -67,5 +67,5 @@ xhttp.onreadystatechange = function() {
         disp();
     }
 };
-xhttp.open("GET", "https://api.covid19india.org/v4/min/data.min.json", true);
+xhttp.open("GET", "https://data.covid19india.org/v4/min/data.min.json", true);
 xhttp.send(); 
